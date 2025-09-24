@@ -3,3 +3,25 @@
 
 # awesome-ai-repurposing
 Collection of awesome drug repurposing publication leveraging ML and AI
+
+
+## Table of Contents
+
+
+## Knowledge Graph based Methods
+
+### Rule-based Methods
+
+### GNN-based Methods
+
+### Random-walk based ML Methods
+
+## Large Language Model Methods
+
+### Publication type 1  
+### Publication type 2
+
+## Datasets
+
+### Dataset 1 
+### Dataset 2
