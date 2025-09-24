@@ -6,7 +6,13 @@ Collection of awesome drug repurposing publication leveraging ML and AI
 
 
 ## Table of Contents
-
+1. Knowledge Graph based Methods
+1.1 Rule-based Methods
+1.2 GNN-based Methods
+1.3 Random walk based ML Methods
+2. Large Language Models
+3. Datasets
+4. Other
 
 ## Knowledge Graph based Methods
 
@@ -16,19 +22,19 @@ Collection of awesome drug repurposing publication leveraging ML and AI
 
 ### GNN-based Methods
 
-* TxGNN: A foundation model for clinician-centered drug repurposing
+* **TxGNN: A foundation model for clinician-centered drug repurposing**
   * Authors: Kexin Huang, Payal Chandak, Qianwen Wang, Shreyas Havaldar, Akhil Vaid, Jure Leskovec, Girish N. Nadkarni, Benjamin S. Glicksberg, Nils Gehlenborg & Marinka Zitnik 
   * [Paper](https://www.nature.com/articles/s41591-024-03233-x)
   * [Code](https://github.com/mims-harvard/TxGNN)
 
 ### Random-walk based ML Methods 
 
-* KGML-xDTD: a knowledge graph–based machine learning framework for drug treatment prediction and mechanism description
+* **KGML-xDTD: a knowledge graph–based machine learning framework for drug treatment prediction and mechanism description**
   * Authors: Chunyu Ma,  Zhihan Zhou,  Han Liu,  David Koslicki
   * [Paper](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giad057/7246583)
   * [Code](https://github.com/chunyuma/KGML-xDTD)
 
-* Biomedical knowledge graph learning for drug repurposing by extending guilt-by-association to multiple layers
+* **Biomedical knowledge graph learning for drug repurposing by extending guilt-by-association to multiple layers**
   * Authors: Dongmin Bang, Sangsoo Lim, Sangseon Lee & Sun Kim 
   * [Paper](https://www.nature.com/articles/s41467-023-39301-y)
   * [Code](https://github.com/eugenebang/DREAMwalk)
