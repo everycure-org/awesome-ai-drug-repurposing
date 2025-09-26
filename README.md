@@ -4,6 +4,8 @@
 # awesome-ai-repurposing
 Collection of awesome drug repurposing publication leveraging ML and AI
 
+> Drug repurposing is the process of identifying new therapeutic uses for existing drugs (or drug candidates) that were originally developed for a different condition. 
+
 
 ## Table of Contents
 1. Knowledge Graph based Methods
