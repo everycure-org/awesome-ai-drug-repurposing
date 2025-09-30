@@ -9,18 +9,28 @@ Collection of awesome drug repurposing publication leveraging ML and AI
 
 ## Table of Contents
 1. Knowledge Graph based Methods
-1.1 Rule-based Methods
-1.2 GNN-based Methods
-1.3 Random walk based ML Methods
-2. Large Language Models
-3. Datasets
-4. Other
+
+   1. Rule-based Methods
+
+   1. GNN-based Methods
+
+   1. Random walk based ML Methods
+   
+3. Large Language Models
+4. Datasets
+  
+   1. Knowledge Graphs
+
+6. Other
 
 ## Knowledge Graph based Methods
 
 ### Rule-based Methods
 
-* TODO
+* **Systematic integration of biomedical knowledge prioritizes drugs for repurposing**
+  * Authors: Daniel Scott Himmelstein, Antoine Lizee, Christine Hessler, Leo Brueggeman, Sabrina L Chen, Dexter Hadley, Ari Green, Pouya Khankhanian, Sergio E Baranzini
+  * [Paper](https://elifesciences.org/articles/26726)
+  * [Code](https://github.com/hetio/hetionet)
 
 ### GNN-based Methods
 
@@ -43,7 +53,9 @@ Collection of awesome drug repurposing publication leveraging ML and AI
 
 ## Large Language Model Methods
 
-* TODO
+* **AI-Assisted Drug Re-Purposing for Human Liver Fibrosis**
+   * Authors: Yuan Guan, Lu Cui, Jakkapong Inchai, Zhuoqing Fang, Jacky Law, Alberto Alonzo Garcia Brito, Annalisa Pawlosky, Juraj Gottweis, Alexander Daryin, Artiom Myaskovsky, Lakshmi Ramakrishnan, Anil Palepu, Kavita Kulkarni, Wei-Hung Weng, Zhuanfen Cheng, Vivek Natarajan, Alan Karthikesalingam, Keran Rong, Yunhan Xu, Tao Tu, Gary Peltz
+   * [Paper](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202508751)
 
 ## Datasets
 
@@ -59,6 +71,11 @@ Collection of awesome drug repurposing publication leveraging ML and AI
   * [Paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04932-3)
   * [Code](https://github.com/RTXteam/RTX-KG2)
 
+* **Systematic integration of biomedical knowledge prioritizes drugs for repurposing**
+  * Authors: Daniel Scott Himmelstein, Antoine Lizee, Christine Hessler, Leo Brueggeman, Sabrina L Chen, Dexter Hadley, Ari Green, Pouya Khankhanian, Sergio E Baranzini
+  * [Paper](https://elifesciences.org/articles/26726)
+  * [Code](https://github.com/hetio/hetionet)
+  
 ## Other
 
 * **Pioneering a new field of computational pharmacophenomics to unlock the life-saving potential of existing medicines**
