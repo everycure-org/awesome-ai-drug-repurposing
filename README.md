@@ -32,6 +32,11 @@ Collection of awesome drug repurposing publication leveraging ML and AI
   * [Paper](https://elifesciences.org/articles/26726)
   * [Code](https://github.com/hetio/hetionet)
 
+* **The precision medicine process for treating rare disease using the artificial intelligence tool mediKanren**
+   * Authors: Aleksandra Foksinska, Camerron M Crowder, Andrew B Crouse, Jeff Henrikson, William E Byrd, Gregory Rosenblatt, Michael J Patton, Kaiwen He, Thi K Tran-Nguyen, Marissa Zheng, Stephen A Ramsey, Nada Amin, John Osborne; UAB Precision Medicine Institute; Matthew Might
+   * [Paper]([https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202508751](https://pubmed.ncbi.nlm.nih.gov/36248623/))
+   * [Code](https://github.com/webyrd/mediKanren)
+
 ### GNN-based Methods
 
 * **TxGNN: A foundation model for clinician-centered drug repurposing**
@@ -39,6 +44,10 @@ Collection of awesome drug repurposing publication leveraging ML and AI
   * [Paper](https://www.nature.com/articles/s41591-024-03233-x)
   * [Code](https://github.com/mims-harvard/TxGNN)
 
+* **A Case-Based Explainable Graph Neural Network Framework for Mechanistic Drug Repositioning**
+  * [Paper](https://www.biorxiv.org/content/10.1101/2025.04.28.651120v1)
+  * [Code](https://github.com/SuLab/DBR-X)
+  
 ### Random-walk based ML Methods 
 
 * **KGML-xDTD: a knowledge graph–based machine learning framework for drug treatment prediction and mechanism description**
