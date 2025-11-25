@@ -84,7 +84,13 @@ Collection of awesome drug repurposing publication leveraging ML and AI
   * Authors: Daniel Scott Himmelstein, Antoine Lizee, Christine Hessler, Leo Brueggeman, Sabrina L Chen, Dexter Hadley, Ari Green, Pouya Khankhanian, Sergio E Baranzini
   * [Paper](https://elifesciences.org/articles/26726)
   * [Code](https://github.com/hetio/hetionet)
-  
+
+* **Design and application of a knowledge network for automatic prioritization of drug mechanisms**
+  * Authors: Michael Mayers, Roger Tu, Dylan Steinecke, Tong Shu Li, Nuria Queralt-Rosinach, Andrew I Su
+  * [Paper](https://pubmed.ncbi.nlm.nih.gov/35561182/)
+  * [Code](https://github.com/SuLab/MechRepoNet)
+  * [Data](https://doi.org/10.5281/zenodo.6456335)
+
 ## Other
 
 * **Pioneering a new field of computational pharmacophenomics to unlock the life-saving potential of existing medicines**
