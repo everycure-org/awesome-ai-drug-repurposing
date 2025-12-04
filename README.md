@@ -126,6 +126,14 @@ Methods leveraging knowledge graphs to discover drug-disease relationships.
   * Graph Neural Network encoding into new embedding space
   * [Paper (medRxiv, 2024)](https://www.medrxiv.org/content/10.1101/2024.07.06.24309990v1)
 
+* **EDGAR: Explainable Enrichment-Driven GrAph Reasoner** (2024)
+  * Uses enrichment analysis to identify statistically significant patterns in biomedical KGs
+  * Demonstrated on ROBOKOP KG for Alzheimer's disease drug repurposing
+  * Interactive, explainable predictions ensuring transparent repurposing process
+  * Identifies biological pathways connecting drugs to diseases
+  * [Paper (arXiv, 2024)](https://arxiv.org/html/2409.18659v2)
+  * Organizations: RENCI, UNC Chapel Hill
+
 ### Random Walk & Embedding Methods
 
 * **KGML-xDTD: Knowledge Graph Machine Learning Framework**
@@ -141,6 +149,16 @@ Methods leveraging knowledge graphs to discover drug-disease relationships.
   * Biomedical knowledge graph learning for drug repurposing
   * [Paper (Nature Communications, 2023)](https://www.nature.com/articles/s41467-023-39301-y) | [Code](https://github.com/eugenebang/DREAMwalk)
   * Organizations: Seoul National University
+
+### Methodology: Negative Sampling & Evaluation
+
+* **Node-Degree Aware Negative Sampling (DANS)**
+  * Mitigates inflated classification performance from degree bias in biomedical KGs
+  * Addresses lack of experimentally validated negative samples
+  * Important for proper evaluation of random walk-based graph representation learning
+  * Used in drug repositioning, drug-target interactions, and DDI prediction
+  * [Paper (Bioinformatics Advances, 2024)](https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae036/7619101) | [Code](https://github.com/monarch-initiative/negativeExampleSelection)
+  * Organizations: Monarch Initiative
 
 ### Rule-Based & Logic Methods
 
@@ -176,6 +194,14 @@ Modern deep learning architectures for molecular generation and drug-target inte
   * Leverages AlphaFold2 protein embeddings to condition molecular generation
   * Multitarget transformer model for de novo drug design
   * [Paper (JCIM, 2024)](https://pubs.acs.org/doi/10.1021/acs.jcim.4c00309)
+
+* **GraphRAG: LLM-Based Knowledge Graph Construction** (Microsoft Research)
+  * Uses LLMs to create knowledge graphs from unstructured biomedical data
+  * Vastly improves retrieval for question-answering in drug discovery
+  * Addresses limitations of baseline RAG by using LLM-generated KGs for context
+  * Enables integration of smaller, specialized KGs using natural language queries
+  * [Paper (Microsoft Research)](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)
+  * Organizations: Microsoft Research
 
 ### Diffusion Models
 
@@ -234,6 +260,14 @@ Leveraging biomedical literature and text data for drug repurposing insights.
   * [Paper (Bioinformatics, 2020)](https://academic.oup.com/bioinformatics/article/36/4/1234/5566506) | [Code](https://github.com/dmis-lab/biobert)
   * Organizations: Korea University
 
+* **PubMedBERT: Biomedical Language Model for Drug Repurposing**
+  * Pre-trained solely on PubMed abstracts (not general text like BioBERT)
+  * Achieves F1 = 0.854 for semantic predication classification in COVID-19 drug repurposing
+  * Used for node attribute embeddings in biomedical knowledge graphs
+  * Produces higher quality embeddings than generalized models for medical literature
+  * [Model (HuggingFace)](https://huggingface.co/NeuML/pubmedbert-base-embeddings) | [Paper (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7869625/)
+  * Applications: COVID-19 drug repurposing via KG completion, DrugReX system
+
 ### Chemical Language Models
 
 * **ChemBERTa: Large-Scale Self-Supervised Pretraining**
@@ -263,6 +297,13 @@ Leveraging biomedical literature and text data for drug repurposing insights.
   * Large language model-based reasoning for drug repurposing
   * Extracts drug-target interactions from DrugBank, DGIdb, CTD, STITCH
   * [Paper (arXiv, 2024)](https://arxiv.org/html/2408.13378v3)
+
+* **DrugReX: Explainable Drug Repurposing System with LLMs and Literature KG** (2024)
+  * Combines PubMedBERT (F1 = 0.808) with literature-based knowledge graphs
+  * Enriches KG with semantic relationships via SemRep and PubMedBERT
+  * For Alzheimer's disease: identified 25 promising candidates (9 clustering with FDA-approved drugs, 10 in clinical trials)
+  * Enables nuanced understanding of drug-disease interactions
+  * [Paper (PMC, 2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12204371/)
 
 ---
 
@@ -351,6 +392,15 @@ Foundational knowledge graphs integrating biomedical data for drug repurposing.
   * [Paper (eLife, 2017)](https://elifesciences.org/articles/26726) | [Code](https://github.com/hetio/hetionet)
   * Organizations: UCSF
 
+* **ROBOKOP: Reasoning Over Biomedical Objects linked in Knowledge Oriented Pathways**
+  * Open question-answering platform leveraging 30+ biomedical databases
+  * ~10 million nodes and 250 million edges from federated sources
+  * Finds biological pathways connecting drugs to diseases
+  * Clinical Outcome Pathways (COPs) concept for accelerating drug repurposing
+  * Used by EDGAR framework for explainable Alzheimer's drug repurposing
+  * [Paper (JCIM, 2020)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00683) | [News (RENCI)](https://renci.org/blog/new-concept-poised-to-accelerate-drug-discovery-through-data-mining/)
+  * Organizations: RENCI, UNC Chapel Hill, Institute for Systems Biology
+
 ---
 
 ## Databases & Compound Libraries
@@ -382,6 +432,13 @@ Curated databases and compound collections for computational screening.
   * Cloud-based platform with web applications
   * [Platform](https://www.broadinstitute.org/connectivity-map-cmap) | [GitHub](https://github.com/cmap)
   * Organizations: Broad Institute, NIH LINCS
+
+* **MeDIC: Medicines, Diseases, Indications, and Contraindications Database**
+  * Curated collection of tabulated data sources for drug repurposing
+  * Sources: American drug labels, FDA Orange Book and Purple Book documents
+  * Used in Every Cure's MATRIX project and ROBOKOP collaborations
+  * [Portal (RENCI)](https://medic.renci.org/) | [MATRIX Project](https://renci.org/project/matrix/)
+  * Organizations: RENCI, UNC Chapel Hill, Every Cure
 
 ---
 
@@ -487,6 +544,12 @@ Leading institutions and research groups advancing AI drug repurposing.
 * **Korea University - DMIS Lab**
   * Key Contributions: BioBERT
   * Focus: Biomedical NLP
+
+* **RENCI (Renaissance Computing Institute) - UNC Chapel Hill**
+  * Key Contributions: ROBOKOP, MeDIC, EDGAR, Clinical Outcome Pathways
+  * Collaborative partner in Every Cure's MATRIX project
+  * Focus: Biomedical knowledge graphs, drug repurposing infrastructure
+  * [Website](https://renci.org/)
 
 ### Industry & AI Companies
 
