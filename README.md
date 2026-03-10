@@ -30,14 +30,17 @@ Methods leveraging knowledge graphs to discover drug-disease relationships.
   * Organizations: Harvard Medical School
 
 * **A Case-Based Explainable Graph Neural Network Framework for Mechanistic Drug Repositioning**
+  * Authors: Andrew I Su, Meghamala Sinha, Roger Tu, Adriana Carolina Gonzalez-Cavazos
   * [Paper](https://www.biorxiv.org/content/10.1101/2025.04.28.651120v1)
   * [Code](https://github.com/SuLab/DBR-X)
+  * Organizations: Scripps Research
 
 * **Few shot learning for phenotype-driven diagnosis of patients with rare genetic diseases**
   * Authors: Emily Alsentzer, Michelle M Li, Shilpa N Kobren, Ayush Noori, Undiagnosed Diseases Network, Isaac S Kohane, Marinka Zitnik
   * [Paper](https://pubmed.ncbi.nlm.nih.gov/40542121/)
   * [Code](https://github.com/mims-harvard/SHEPHERD)
   * [Data](https://zitniklab.hms.harvard.edu/projects/SHEPHERD/)
+  * Organizations: Harvard Medical School, Brigham and Women's Hospital
 
 * **Enhancing link prediction in biomedical knowledge graphs with BioPathNet**
   * Authors: Emy Yue Hu, Svitlana Oleshko, Samuele Firmani, Hui Cheng, Zhaocheng Zhu, Maria Ulmer, Matthias Arnold, Maria Colomé-Tatché, Jian Tang, Sophie Xhonneux & Annalisa Marsico
@@ -65,6 +68,7 @@ Methods leveraging knowledge graphs to discover drug-disease relationships.
   * Authors: Charlotte A. Nelson, Atul J. Butte & Sergio E. Baranzini
   * [Paper (Nature Communications, 2019)](https://www.nature.com/articles/s41467-019-11069-0)
   * [Code](https://github.com/BaranziniLab/PSEV)
+  * Organizations: UCSF
 
 
 ### Rule-Based & Logic Methods
@@ -135,19 +139,22 @@ Foundational knowledge graphs for drug repurposing research.
   * [Paper](https://pubmed.ncbi.nlm.nih.gov/35561182/)
   * [Code](https://github.com/SuLab/MechRepoNet)
   * [Data](https://doi.org/10.5281/zenodo.6456335)
+  * Organizations: Scripps Research
 
 * **ROBOKOP: Reasoning Over Biomedical Objects linked in Knowledge Oriented Pathways**
+  * Authors: Kenneth Morton, Patrick Wang, Chris Bizon, Steven Cox, James Balhoff, Yaphet Kebede, Karamarie Fecho, Alexander Tropsha
   * Open question-answering platform leveraging 30+ biomedical databases
   * ~10 million nodes and 250 million edges from federated sources
   * Finds biological pathways connecting drugs to diseases
   * Clinical Outcome Pathways (COPs) concept for accelerating drug repurposing
   * [Paper (JCIM, 2020)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00683) | [News (RENCI)](https://renci.org/blog/new-concept-poised-to-accelerate-drug-discovery-through-data-mining/)
-  * Organizations: RENCI, UNC Chapel Hill, Institute for Systems Biology
+  * Organizations: RENCI, UNC Chapel Hill
 
 * **The scalable precision medicine open knowledge engine (SPOKE): a massive knowledge graph of biomedical information**
   * Authors: John H. Morris, Karthik Soman, Rabia E. Akbas, Xiaoyuan Zhou, Brett Smith, Elaine C. Meng, Conrad C. Huang, Gabriel Cerono, Gundolf Schenk, Angela Rizk-Jackson, Adil Harroud, Lauren Sanders, Sylvain V. Costes, Krish Bharat, Arjun Chakraborty, Alexander R. Pico, Taline Mardirossian, Michael Keiser, Alice Tang, Josef Hardi, Yongmei Shi, Mark Musen, Sharat Israni, Sui Huang, Peter W. Rose, Charlotte A. Nelson, Sergio E. Baranzini
   * Open Access
   * [Paper (Bioinformatics, 2023)](https://academic.oup.com/bioinformatics/article/39/2/btad080/7033465)
+  * Organizations: UCSF, Lawrence Berkeley National Laboratory, Stanford University
 
 
 ---
