@@ -52,15 +52,11 @@ Methods leveraging knowledge graphs to discover drug-disease relationships.
 
 * **KGML-xDTD: Knowledge Graph Machine Learning Framework**
   * Authors: Chunyu Ma, Zhihan Zhou, Han Liu, David Koslicki
-  * Combines knowledge graphs with machine learning for drug treatment prediction
-  * Provides mechanistic descriptions of predicted treatments
   * [Paper (GigaScience, 2023)](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giad057/7246583) | [Code](https://github.com/chunyuma/KGML-xDTD)
   * Organizations: Oregon State University, Penn State University
 
 * **DREAMwalk: Guilt-by-Association Multi-Layer Extension**
   * Authors: Dongmin Bang, Sangsoo Lim, Sangseon Lee, Sun Kim
-  * Extends guilt-by-association to multiple knowledge graph layers
-  * Biomedical knowledge graph learning for drug repurposing
   * [Paper (Nature Communications, 2023)](https://www.nature.com/articles/s41467-023-39301-y) | [Code](https://github.com/eugenebang/DREAMwalk)
   * Organizations: Seoul National University
 
@@ -117,22 +113,24 @@ Foundational knowledge graphs for drug repurposing research.
 
 * **PrimeKG: Precision Medicine Knowledge Graph**
   * Authors: Payal Chandak, Kexin Huang, Marinka Zitnik
-  * Integrates 20+ biomedical data sources
-  * Foundation for TxGNN and other precision medicine applications
-  * [Paper (Nature Scientific Data, 2023)](https://www.nature.com/articles/s41597-023-01960-3) | [Code](https://github.com/mims-harvard/PrimeKG)
+  * [Paper (Nature Scientific Data, 2023)](https://www.nature.com/articles/s41597-023-01960-3)
+  * [Code](https://github.com/mims-harvard/PrimeKG)
+  * [Data](https://doi.org/10.7910/DVN/IXA7BM) 
   * Organizations: Harvard Medical School, MIMS Harvard
 
 * **RTX-KG2: Semantically Standardized Knowledge Graph**
   * Authors: E. C. Wood, Amy K. Glen, Lindsey G. Kvarfordt, Finn Womack, Liliana Acevedo, Timothy S. Yoon, Chunyu Ma, Veronica Flores, Meghamala Sinha, Yodsawalai Chodpathumwan, Arash Termehchy, Jared C. Roach, Luis Mendoza, Andrew S. Hoffman, Eric W. Deutsch, David Koslicki, Stephen A. Ramsey
-  * Built for translational biomedicine
-  * Standardized semantic framework
-  * [Paper (BMC Bioinformatics, 2022)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04932-3) | [Code](https://github.com/RTXteam/RTX-KG2)
+  * [Paper (BMC Bioinformatics, 2022)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04932-3)
+  * [Code](https://github.com/RTXteam/RTX-KG2)
+  * [Data](http://rtx-kg2-public.s3-website-us-west-2.amazonaws.com/)
   * Organizations: Oregon State University, Institute for Systems Biology
 
 * **Hetionet: Integrative Heterogeneous Network**
   * Authors: Daniel Scott Himmelstein, Antoine Lizee, Christine Hessler, Leo Brueggeman, Sabrina L Chen, Dexter Hadley, Ari Green, Pouya Khankhanian, Sergio E Baranzini
   * [Paper](https://elifesciences.org/articles/26726)
   * [Code](https://github.com/hetio/hetionet)
+  * [Data](https://zenodo.org/records/268568)
+  * Organizations: UCSF
 
 * **Design and application of a knowledge network for automatic prioritization of drug mechanisms**
   * Authors: Michael Mayers, Roger Tu, Dylan Steinecke, Tong Shu Li, Nuria Queralt-Rosinach, Andrew I Su
@@ -143,17 +141,15 @@ Foundational knowledge graphs for drug repurposing research.
 
 * **ROBOKOP: Reasoning Over Biomedical Objects linked in Knowledge Oriented Pathways**
   * Authors: Kenneth Morton, Patrick Wang, Chris Bizon, Steven Cox, James Balhoff, Yaphet Kebede, Karamarie Fecho, Alexander Tropsha
-  * Open question-answering platform leveraging 30+ biomedical databases
-  * ~10 million nodes and 250 million edges from federated sources
-  * Finds biological pathways connecting drugs to diseases
-  * Clinical Outcome Pathways (COPs) concept for accelerating drug repurposing
-  * [Paper (JCIM, 2020)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00683) | [News (RENCI)](https://renci.org/blog/new-concept-poised-to-accelerate-drug-discovery-through-data-mining/)
+  * [Paper (JCIM, 2020)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00683) 
+  * [Platform](https://robokop.renci.org/) 
   * Organizations: RENCI, UNC Chapel Hill
 
 * **The scalable precision medicine open knowledge engine (SPOKE): a massive knowledge graph of biomedical information**
   * Authors: John H. Morris, Karthik Soman, Rabia E. Akbas, Xiaoyuan Zhou, Brett Smith, Elaine C. Meng, Conrad C. Huang, Gabriel Cerono, Gundolf Schenk, Angela Rizk-Jackson, Adil Harroud, Lauren Sanders, Sylvain V. Costes, Krish Bharat, Arjun Chakraborty, Alexander R. Pico, Taline Mardirossian, Michael Keiser, Alice Tang, Josef Hardi, Yongmei Shi, Mark Musen, Sharat Israni, Sui Huang, Peter W. Rose, Charlotte A. Nelson, Sergio E. Baranzini
   * Open Access
   * [Paper (Bioinformatics, 2023)](https://academic.oup.com/bioinformatics/article/39/2/btad080/7033465)
+  * [Platform](https://spoke.ucsf.edu/)
   * Organizations: UCSF, Lawrence Berkeley National Laboratory, Stanford University
 
 
@@ -161,27 +157,30 @@ Foundational knowledge graphs for drug repurposing research.
 
 ## Databases & Compound Libraries
 
-Curated databases and compound collections for repurposing research.
+Curated databases, platforms, and compound collections for repurposing research.
 
 * **Broad Institute Drug Repurposing Hub**
-  * Nearly 7,000 FDA-approved drugs, clinical trial drugs, and preclinical compounds
-  * Heavily used for COVID-19 research (172 strongly active molecules identified)
-  * Applications in rare diseases, cancer, infectious diseases
-  * [Portal](https://www.broadinstitute.org/drug-repurposing-hub) | [Data Portal](https://repo-hub.broadinstitute.org/repurposing)
+  * [Portal](https://www.broadinstitute.org/drug-repurposing-hub)
+  * [Data Portal](https://repo-hub.broadinstitute.org/repurposing)
   * Organizations: Broad Institute
 
-* **DrugBank: Comprehensive Drug Data Resource**
-  * AI-ready datasets for machine learning
-  * Structured indication datasets for drug repurposing ML models
-  * Machine-readable pharmacology data
-  * [Platform](https://go.drugbank.com/) | [ML Resources](https://www.drugbank.com/ai)
+* **DrugMechDB: A Curated Database of Drug Mechanisms**
+  * Authors: Adriana Carolina Gonzalez-Cavazos, Anna Tanska, Michael Mayers, Denise Carvalho-Silva, Brindha Sridharan, Patrick A. Rewers, Umasri Sankarlal, Lakshmanan Jagannathan & Andrew I. Su
+  * [Paper](https://doi.org/10.1038/s41597-023-02534-z)
+  * [Data](https://zenodo.org/records/8139357)
+  * [Code](https://github.com/SuLab/DrugMechDB/tree/2.0.1)
+  * Organization: Scripps
+
+* **DrugBank Knowledgebase**
+  * Authors: Craig Knox, Mike Wilson, Christen M Klinger, Mark Franklin, Eponine Oler, Alex Wilson, Allison Pon, Jordan Cox, Na Eun (Lucy) Chin, Seth A Strawbridge, Marysol Garcia-Patino, Ray Kruger, Aadhavya Sivakumaran, Selena Sanford, Rahil Doshi, Nitya Khetarpal, Omolola Fatokun, Daphnee Doucet, Ashley Zubkowski, Dorsa Yahya Rayat, Hayley Jackson, Karxena Harford, Afia Anjum, Mahi Zakir, Fei Wang, Siyang Tian, Brian Lee, Jaanus Liigand, Harrison Peters, Ruo Qi (Rachel) Wang, Tue Nguyen, Denise So, Matthew Sharp, Rodolfo da Silva, Cyrella Gabriel, Joshua Scantlebury, Marissa Jasinski, David Ackerman, Timothy Jewison, Tanvir Sajed, Vasuk Gautam, David S Wishart
+  * [Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC10767804/)
+  * [Platform](https://go.drugbank.com/)
   * Organizations: University of Alberta
 
-* **MeDIC: Medicines, Diseases, Indications, and Contraindications Database**
-  * Curated collection of tabulated data sources for drug repurposing
-  * Sources: American drug labels, FDA Orange Book and Purple Book documents
-  * Used in Every Cure's MATRIX project
-  * [Portal (RENCI)](https://medic.renci.org/) | [MATRIX Project](https://renci.org/project/matrix/)
+* **Medicines, Diseases, Indications, and Contraindications (MeDIC): a foundational resource to support drug repurposing** 
+  * Authors: Marcello DeLuca, Nico Matentzoglu, Elliott Sharp, Jane Li, Charlie Hempstead, May Lim, Piotr Kaniewski, E Kathleen Carter, Kushal Koirala, Elvin Ding, Laurens Vijnck, Pascal Brokmeier, Sabrina Toro, Kevin Schaper, Jacques Vergine, Olivia Li, Tudor I Oprea, David C Fajgenbaum, Christopher Bizon, Melissa Haendel, Alexander Tropsha
+  * [Paper](https://doi.org/10.1093/nar/gkaf1312)
+  * [Portal (RENCI)](https://medic.renci.org/)
   * Organizations: RENCI, UNC Chapel Hill, Every Cure
 
 ---
@@ -191,9 +190,6 @@ Curated databases and compound collections for repurposing research.
 Real-world validation of AI-driven drug repurposing with clinical impact.
 
 * **Baricitinib for COVID-19 (BenevolentAI)** - First major AI-driven drug repurposing clinical success
-  * Originally approved for rheumatoid arthritis, repurposed for COVID-19 using knowledge graph and ML
-  * Identified in 48 hours, received FDA Emergency Use Authorization
-  * Clinical trials (ACTT-2, CoV-BARRIER) confirmed significant mortality reduction
   * [Paper (Frontiers in Pharmacology)](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2021.709856/full) | [Paper (The Lancet)](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30304-4/fulltext)
   * Organizations: BenevolentAI, Eli Lilly
 
@@ -203,20 +199,13 @@ Real-world validation of AI-driven drug repurposing with clinical impact.
 
 Essential review papers for understanding the drug repurposing field.
 
-* **Applications of Artificial Intelligence in Drug Repurposing** (2025)
-  * Comprehensive review of AI frameworks and multimodal datasets for repurposing
-  * [Paper (Advanced Science, Wiley, 2025)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202411325)
-
 * **Knowledge Graphs for drug repurposing: a review of databases and methods** (2024)
   * Authors: Pablo Perdomo-Quinteiro, Alberto Belmonte-Hernández
-  * In-depth review of knowledge graph databases and computational methods in drug repurposing
   * [Paper (Briefings in Bioinformatics, 2024)](https://academic.oup.com/bib/article/25/6/bbae461/7774899)
 
 * **The use of knowledge graphs for drug repurposing: From classical machine learning algorithms to graph neural networks** (2024)
   * Authors: Siqi Wei, Christo Sasi, Jelle Piepenbrock, Martijn A. Huynen, Peter A.C. ’t Hoen
-  * Comprehensive overview bridging classical ML methods and modern GNNs in the context of drug repurposing with knowledge graphs
   * [Paper (Computer Methods and Programs in Biomedicine, 2024)](https://www.sciencedirect.com/science/article/pii/S0010482525012247)
-
 
 * **Pioneering Computational Pharmacophenomics** (2024)
   * Authors: David C Fajgenbaum, Sally Nijim, Grant Mitchell, Matej Macak, Chris Bizon, Alexander Tropsha, David Koslicki
