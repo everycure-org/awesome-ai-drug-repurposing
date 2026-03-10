@@ -9,83 +9,12 @@ A curated collection of AI and machine learning resources specifically for drug 
 
 ## Table of Contents
 
-1. [Clinical Successes](#clinical-successes)
-2. [Landmark Methods & Foundation Models](#landmark-methods--foundation-models)
-3. [Knowledge Graph-Based Methods](#knowledge-graph-based-methods)
-4. [Large Language Models for Repurposing](#large-language-models-for-repurposing)
-5. [Network Medicine & Systems Biology](#network-medicine--systems-biology)
-6. [Transcriptomics-Based Repurposing](#transcriptomics-based-repurposing)
-7. [Data Resources & Knowledge Graphs](#data-resources--knowledge-graphs)
-8. [Databases & Compound Libraries](#databases--compound-libraries)
-9. [Tools & Software](#tools--software)
-10. [Key Research Organizations](#key-research-organizations)
-11. [Reviews](#reviews)
-
----
-
-## Clinical Successes
-
-Real-world validation of AI-driven drug repurposing with clinical impact.
-
-* **Baricitinib for COVID-19 (BenevolentAI)** - First major AI-driven drug repurposing clinical success
-  * Originally approved for rheumatoid arthritis, repurposed for COVID-19 using knowledge graph and ML
-  * Identified in 48 hours, received FDA Emergency Use Authorization
-  * Clinical trials (ACTT-2, CoV-BARRIER) confirmed significant mortality reduction
-  * [Paper (Frontiers in Pharmacology)](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2021.709856/full) | [Paper (The Lancet)](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30304-4/fulltext)
-  * Organizations: BenevolentAI, Eli Lilly
-
-* **ISM001-055/Rentosertib for Idiopathic Pulmonary Fibrosis (Insilico Medicine)**
-  * First-in-class TNIK inhibitor discovered using end-to-end generative AI
-  * Phase IIa (2024): 98.4 mL improvement in lung function vs -62.3 mL decline in placebo
-  * From target discovery to Phase 1 in under 30 months
-  * [News (Insilico Medicine)](https://insilico.com/news/tnik-ipf-phase2a)
-  * Organizations: Insilico Medicine
-
-* **Sulindac for Fragile X Syndrome (HealX)** - AI-discovered repurposing with IND approval
-  * NSAID repurposed for rare genetic disease
-  * FDA IND approval for Phase 2a clinical trial (2021)
-  * Organizations: HealX
-
-* **REC-994 for Cerebral Cavernous Malformation (Recursion Pharmaceuticals)**
-  * Previously "shelved" compound identified by AI phenomics platform
-  * Advanced to Phase II trial
-  * Organizations: Recursion Pharmaceuticals
-
-* **ARPA-H MATRIX Project** - $48M investment in AI drug repurposing for rare diseases
-  * Led by Every Cure (non-profit)
-  * Systematic evaluation of approved drugs across rare diseases
-  * [News (ARPA-H)](https://arpa-h.gov/news-and-events/arpa-h-awards-ai-driven-project-repurpose-approved-medications)
-  * Organizations: Every Cure, ARPA-H
-
----
-
-## Landmark Methods & Foundation Models
-
-Breakthrough approaches specifically designed for drug repurposing.
-
-* **TxGNN: Zero-Shot Drug Repurposing Foundation Model**
-  * Authors: Kexin Huang, Payal Chandak, Qianwen Wang, Shreyas Havaldar, Akhil Vaid, Jure Leskovec, Girish N. Nadkarni, Benjamin S. Glicksberg, Nils Gehlenborg, Marinka Zitnik
-  * Graph neural network foundation model trained on medical knowledge graph covering 17,080 diseases
-  * First model developed specifically for rare diseases and conditions with no treatments
-  * Improves prediction accuracy by 49.2% for indications and 35.1% for contraindications
-  * Zero-shot learning enables predictions for diseases with limited treatment options
-  * [Paper (Nature Medicine, 2024)](https://www.nature.com/articles/s41591-024-03233-x) | [Code](https://github.com/mims-harvard/TxGNN) | [Project Page](https://zitniklab.hms.harvard.edu/projects/TxGNN/)
-  * Organizations: Harvard Medical School, MIMS Harvard, Mount Sinai
-
-* **Hetionet: Systematic Biomedical Knowledge Integration**
-  * Authors: Daniel Scott Himmelstein, Antoine Lizee, Christine Hessler, Leo Brueggeman, Sabrina L Chen, Dexter Hadley, Ari Green, Pouya Khankhanian, Sergio E Baranzini
-  * Integrative network connecting drugs, diseases, genes, anatomies, pathways, and more
-  * Pioneering work in computational drug repurposing using heterogeneous networks
-  * Open science approach with full data and code availability
-  * [Paper (eLife, 2017)](https://elifesciences.org/articles/26726) | [Code](https://github.com/hetio/hetionet)
-  * Organizations: University of California San Francisco
-
-* **mediKanren: Precision Medicine for Rare Diseases**
-  * Authors: Aleksandra Foksinska, Camerron M Crowder, Andrew B Crouse, Jeff Henrikson, William E Byrd, Gregory Rosenblatt, Michael J Patton, Kaiwen He, Thi K Tran-Nguyen, Marissa Zheng, Stephen A Ramsey, Nada Amin, John Osborne, UAB Precision Medicine Institute, Matthew Might
-  * Biomedical reasoning system for ultra-rare diseases
-  * Combines knowledge graphs with logical reasoning
-  * [Paper (PubMed)](https://pubmed.ncbi.nlm.nih.gov/36248623/) | [Code](https://github.com/webyrd/mediKanren)
-  * Organizations: University of Alabama at Birmingham, Oregon State University
+1. [Knowledge Graph-Based Methods](#knowledge-graph-based-methods)
+2. [Large Language Models & Transformers](#large-language-models--transformers)
+3. [Data Resources & Knowledge Graphs](#data-resources--knowledge-graphs)
+4. [Databases & Compound Libraries](#databases--compound-libraries)
+5. [Clinical Successes](#clinical-successes)
+6. [Reviews](#reviews)
 
 ---
 
@@ -100,26 +29,23 @@ Methods leveraging knowledge graphs to discover drug-disease relationships.
   * [Paper (Nature Medicine, 2024)](https://www.nature.com/articles/s41591-024-03233-x) | [Code](https://github.com/mims-harvard/TxGNN)
   * Organizations: Harvard Medical School
 
-* **DBR-X: Case-Based Explainable GNN Framework**
-  * Provides mechanistic explanations for drug repositioning predictions
-  * Combines prediction accuracy with interpretability
-  * [Paper (bioRxiv, 2025)](https://www.biorxiv.org/content/10.1101/2025.04.28.651120v1) | [Code](https://github.com/SuLab/DBR-X)
-  * Organizations: Scripps Research
+* **A Case-Based Explainable Graph Neural Network Framework for Mechanistic Drug Repositioning**
+  * [Paper](https://www.biorxiv.org/content/10.1101/2025.04.28.651120v1)
+  * [Code](https://github.com/SuLab/DBR-X)
 
-* **DeepDrug: Expert-led AI-Driven Drug Repurposing**
-  * Signed directed heterogeneous biomedical graph with node/edge weighting
-  * Graph Neural Network encoding into new embedding space
-  * Focus on Alzheimer's Disease
-  * [Paper (medRxiv, 2024)](https://www.medrxiv.org/content/10.1101/2024.07.06.24309990v1)
+* **Few shot learning for phenotype-driven diagnosis of patients with rare genetic diseases**
+  * Authors: Emily Alsentzer, Michelle M Li, Shilpa N Kobren, Ayush Noori, Undiagnosed Diseases Network, Isaac S Kohane, Marinka Zitnik
+  * [Paper](https://pubmed.ncbi.nlm.nih.gov/40542121/)
+  * [Code](https://github.com/mims-harvard/SHEPHERD)
+  * [Data](https://zitniklab.hms.harvard.edu/projects/SHEPHERD/)
 
-* **EDGAR: Explainable Enrichment-Driven GrAph Reasoner** (2024)
-  * Uses enrichment analysis to identify statistically significant patterns in biomedical KGs
-  * Demonstrated on ROBOKOP KG for Alzheimer's disease drug repurposing
-  * Interactive, explainable predictions ensuring transparent repurposing process
-  * [Paper (arXiv, 2024)](https://arxiv.org/html/2409.18659v2)
-  * Organizations: RENCI, UNC Chapel Hill
+* **Enhancing link prediction in biomedical knowledge graphs with BioPathNet**
+  * Authors: Emy Yue Hu, Svitlana Oleshko, Samuele Firmani, Hui Cheng, Zhaocheng Zhu, Maria Ulmer, Matthias Arnold, Maria Colomé-Tatché, Jian Tang, Sophie Xhonneux & Annalisa Marsico
+  * [Paper](https://www.nature.com/articles/s41551-025-01598-z)
+  * [Code](https://github.com/emyyue/BioPathNet)
+  * [Code to get Data](https://github.com/emyyue/BioPathNet/blob/main/data/download.sh)
 
-### Random Walk & Embedding Methods
+### Graph ML Methods
 
 * **KGML-xDTD: Knowledge Graph Machine Learning Framework**
   * Authors: Chunyu Ma, Zhihan Zhou, Han Liu, David Koslicki
@@ -135,14 +61,6 @@ Methods leveraging knowledge graphs to discover drug-disease relationships.
   * [Paper (Nature Communications, 2023)](https://www.nature.com/articles/s41467-023-39301-y) | [Code](https://github.com/eugenebang/DREAMwalk)
   * Organizations: Seoul National University
 
-### Methodology: Negative Sampling
-
-* **Node-Degree Aware Negative Sampling (DANS)**
-  * Mitigates inflated classification performance from degree bias in biomedical KGs
-  * Important for proper evaluation of drug repositioning predictions
-  * [Paper (Bioinformatics Advances, 2024)](https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae036/7619101) | [Code](https://github.com/monarch-initiative/negativeExampleSelection)
-  * Organizations: Monarch Initiative
-
 ### Rule-Based & Logic Methods
 
 * **Hetionet: Systematic integration of biomedical knowledge**
@@ -157,105 +75,25 @@ Methods leveraging knowledge graphs to discover drug-disease relationships.
 
 ---
 
-## Large Language Models for Repurposing
+## Large Language Models & Transformers
 
-LLM-based approaches specifically applied to drug repurposing.
+Transformer-based approaches specifically applied to drug repurposing.
 
 * **AI-Assisted Drug Re-Purposing for Human Liver Fibrosis**
   * Authors: Yuan Guan, Lu Cui, Jakkapong Inchai, Zhuoqing Fang, Jacky Law, Alberto Alonzo Garcia Brito, Annalisa Pawlosky, Juraj Gottweis, Alexander Daryin, Artiom Myaskovsky, Lakshmi Ramakrishnan, Anil Palepu, Kavita Kulkarni, Wei-Hung Weng, Zhuanfen Cheng, Vivek Natarajan, Alan Karthikesalingam, Keran Rong, Yunhan Xu, Tao Tu, Gary Peltz
   * [Paper (Advanced Science, 2025)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202508751)
   * Organizations: Google Research
 
-* **Repurformer: Transformers for Repurposing-Aware Molecule Generation** (2024)
-  * Integrates bi-directional pretraining with FFT and low-pass filtering
-  * Addresses sample bias problem in molecule generation for repurposing
-  * [Paper (arXiv, 2024)](https://arxiv.org/html/2407.11439)
+* **NetMedGPT - A network medicine foundation model for extensive disease mechanism mining and drug repurposing**
+   * Authors: Farzaneh Firoozbakht, Simon Süwer, Maria Louise Elkjaer, Diane E. Handy, Andreas Maier, Jane Li, Lee Lancashire, Joseph Loscalzo, Jan Baumbach 
+   * [Paper](https://www.biorxiv.org/content/10.64898/2026.01.04.697552v1)
+   * [Code](https://github.com/faren-f/NetMedGPT)
+   * [Data](https://cloud.uni-hamburg.de/s/r74Ro8rmQ2sHwsL)
 
-* **DrugAgent: Explainable Drug Repurposing with LLM Reasoning** (2024)
-  * Large language model-based reasoning for drug repurposing
-  * Extracts drug-target interactions from DrugBank, DGIdb, CTD, STITCH
-  * [Paper (arXiv, 2024)](https://arxiv.org/html/2408.13378v3)
-
-* **DrugReX: Explainable Drug Repurposing System with LLMs and Literature KG** (2024)
-  * Combines PubMedBERT (F1 = 0.808) with literature-based knowledge graphs
-  * For Alzheimer's disease: identified 25 promising candidates (9 clustering with FDA-approved drugs, 10 in clinical trials)
-  * [Paper (PMC, 2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12204371/)
-
-### Biomedical NLP for Drug-Disease Extraction
-
-* **BioBERT: Pre-trained Biomedical Language Representation Model**
-  * Domain-specific BERT pre-trained on PubMed abstracts and PMC full-text articles
-  * Critical for mining drug-disease relationships from literature
-  * [Paper (Bioinformatics, 2020)](https://academic.oup.com/bioinformatics/article/36/4/1234/5566506) | [Code](https://github.com/dmis-lab/biobert)
-  * Organizations: Korea University
-
-* **PubMedBERT for Drug Repurposing**
-  * Pre-trained solely on PubMed abstracts
-  * Achieves F1 = 0.854 for semantic predication classification in COVID-19 drug repurposing
-  * [Model (HuggingFace)](https://huggingface.co/NeuML/pubmedbert-base-embeddings) | [Paper (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7869625/)
-
-* **Drug Repurposing via Knowledge Graph Completion for COVID-19**
-  * BERT variant for accuracy classification of semantic triples
-  * Successfully predicted baricitinib repurposing (later validated clinically)
-  * [Paper (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7869625/)
-
-* **Using BERT to Identify Drug-Target Interactions from Whole PubMed**
-  * Novel method identifying 0.6 million articles not in public DTI databases
-  * Expands knowledge beyond structured databases
-  * [Paper (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9214985/)
-
----
-
-## Network Medicine & Systems Biology
-
-Approaches using protein-protein interactions and biological networks for repurposing.
-
-* **PIONEER: Protein-Protein Interaction Interface Prediction** (2024)
-  * Integrates 100,000 individual genomes, 16,000+ protein structures, 300,000 PPI pairs
-  * Identifies drug targets for dozens of cancers and complex diseases
-  * [News (ScienceDaily, Oct 2024)](https://www.sciencedaily.com/releases/2024/10/241024131819.htm)
-
-* **Network-Based Drug Repurposing with Population Validation**
-  * Network proximity approaches for predicting drug-disease relationships
-  * Population-based validation of in silico predictions
-  * [Paper (Nature Communications, 2018)](https://www.nature.com/articles/s41467-018-05116-5)
-
-* **Drug and Protein Interaction Network for Alzheimer's Disease** (2023)
-  * Network construction and analysis for drug repurposing
-  * [Paper (MDPI, 2023)](https://www.mdpi.com/2673-9879/3/4/45)
-
----
-
-## Transcriptomics-Based Repurposing
-
-Using transcriptomics and gene expression signatures for drug repurposing.
-
-* **Connectivity Map (CMAP/CLUE) - Transcriptomics-Based Platform**
-  * Over 1 million expression signatures (1,000-fold scale-up from 2006)
-  * L1000 reduced representation expression profiling method
-  * Identifies molecules generating gene expression profiles negatively correlating with disease signatures
-  * [Platform (Broad Institute)](https://www.broadinstitute.org/connectivity-map-cmap) | [Website](https://clue.io)
-  * Organizations: Broad Institute
-
-* **CRISP: Cell-Type-Specific Drug Perturbation Response Predictor** (2025)
-  * Foundation model predicting drug responses in unseen cell types at single-cell resolution
-  * Transfer learning from control to perturbed states
-  * Advances drug repurposing and screening capabilities
-  * [Paper (Nature Computational Science, 2025)](https://www.nature.com/articles/s43588-025-00887-6)
-
-* **scDrug+: Single-Cell Transcriptomics + Molecular Structure** (2024)
-  * Comprehensive pipeline integrating scRNA-seq with drug-response prediction
-  * Predicts response of new drugs by analyzing molecular structures
-  * [Paper (ScienceDirect, 2024)](https://www.sciencedirect.com/science/article/pii/S0753332224009545)
-
-* **scDrug: From Single-Cell RNA-seq to Drug Response**
-  * Framework for predicting drug responses from scRNA-seq data
-  * [Paper (ScienceDirect, 2022)](https://www.sciencedirect.com/science/article/pii/S2001037022005505)
-
-* **Single-Cell Transcriptional Signatures in Colorectal Cancer** (2024)
-  * Analysis of 91,103 scRNA-seq samples from 29 colorectal cancer patients
-  * Identified drugs reversing cancer-to-normal gene signature patterns
-  * [Paper (BMC Cancer, 2024)](https://bmccancer.biomedcentral.com/articles/10.1186/s12885-024-12142-8)
+* **K-Paths: Reasoning over Graph Paths for Drug Repurposing and Drug Interaction Prediction**
+  * Authors: Tassallah Abdullahi, Ioanna Gemou†, Nihal V. Nayak, Ghulam Murtaza, Stephen H. Bach, Carsten Eickhoff, Ritambhara Singh
+  * [Paper](https://arxiv.org/pdf/2502.13344)
+  * [Code](https://github.com/rsinghlab/K-Paths)
 
 ---
 
@@ -279,10 +117,14 @@ Foundational knowledge graphs for drug repurposing research.
 
 * **Hetionet: Integrative Heterogeneous Network**
   * Authors: Daniel Scott Himmelstein, Antoine Lizee, Christine Hessler, Leo Brueggeman, Sabrina L Chen, Dexter Hadley, Ari Green, Pouya Khankhanian, Sergio E Baranzini
-  * Connects diseases, drugs, genes, anatomies, pathways, and biological processes
-  * Pioneering open science approach
-  * [Paper (eLife, 2017)](https://elifesciences.org/articles/26726) | [Code](https://github.com/hetio/hetionet)
-  * Organizations: UCSF
+  * [Paper](https://elifesciences.org/articles/26726)
+  * [Code](https://github.com/hetio/hetionet)
+
+* **Design and application of a knowledge network for automatic prioritization of drug mechanisms**
+  * Authors: Michael Mayers, Roger Tu, Dylan Steinecke, Tong Shu Li, Nuria Queralt-Rosinach, Andrew I Su
+  * [Paper](https://pubmed.ncbi.nlm.nih.gov/35561182/)
+  * [Code](https://github.com/SuLab/MechRepoNet)
+  * [Data](https://doi.org/10.5281/zenodo.6456335)
 
 * **ROBOKOP: Reasoning Over Biomedical Objects linked in Knowledge Oriented Pathways**
   * Open question-answering platform leveraging 30+ biomedical databases
@@ -323,85 +165,18 @@ Curated databases and compound collections for repurposing research.
   * [Portal (RENCI)](https://medic.renci.org/) | [MATRIX Project](https://renci.org/project/matrix/)
   * Organizations: RENCI, UNC Chapel Hill, Every Cure
 
-* **Therapeutics Data Commons (TDC)**
-  * Standardized drug-target interaction benchmarks
-  * Community-driven resource for ML in drug repurposing
-  * [Platform](https://tdcommons.ai/)
-
 ---
 
-## Tools & Software
+## Clinical Successes
 
-Practical implementations for drug repurposing research.
+Real-world validation of AI-driven drug repurposing with clinical impact.
 
-* **DeepPurpose: Deep Learning Library for DTI Prediction**
-  * Authors: Kexin Huang, Tianfan Fu, Lucas M Glass, Marinka Zitnik, Cao Xiao, Jimeng Sun
-  * 15 compound and protein encoders, 50+ neural architectures
-  * State-of-the-art DTI prediction performance
-  * Applications: drug repurposing, virtual screening, compound property prediction
-  * [Paper (Bioinformatics, 2020)](https://academic.oup.com/bioinformatics/article/36/22-23/5545/6020256) | [Code](https://github.com/kexinhuang12345/DeepPurpose)
-  * Organizations: University of Illinois, Harvard Medical School
-
-* **TxGNN Software Package**
-  * Implementation of TxGNN foundation model
-  * Zero-shot drug repurposing across 17,080 diseases
-  * [Code](https://github.com/mims-harvard/TxGNN)
-  * Organizations: MIMS Harvard
-
-* **mediKanren Reasoning System**
-  * Biomedical reasoning for precision medicine
-  * Logical inference over knowledge graphs
-  * [Code](https://github.com/webyrd/mediKanren)
-
----
-
-## Key Research Organizations
-
-Leading institutions advancing AI drug repurposing.
-
-### Academic Labs
-
-* **Harvard Medical School - MIMS (Machine Intelligence in Medicine and Science)**
-  * PI: Marinka Zitnik
-  * Key Contributions: TxGNN, PrimeKG, DeepPurpose
-  * [Lab Website](https://zitniklab.hms.harvard.edu/)
-
-* **Oregon State University - Computational Biology Lab**
-  * PIs: Stephen A. Ramsey, David Koslicki
-  * Key Contributions: RTX-KG2, KGML-xDTD, mediKanren
-  * Focus: Knowledge graphs, computational pharmacophenomics
-
-* **University of California San Francisco (UCSF)**
-  * PI: Sergio E Baranzini
-  * Key Contributions: Hetionet
-
-* **RENCI (Renaissance Computing Institute) - UNC Chapel Hill**
-  * Key Contributions: ROBOKOP, MeDIC, EDGAR, Clinical Outcome Pathways
-  * Collaborative partner in Every Cure's MATRIX project
-  * [Website](https://renci.org/)
-
-* **Broad Institute**
-  * Key Contributions: Drug Repurposing Hub, Connectivity Map/CLUE
-  * [Website](https://www.broadinstitute.org/)
-
-### Industry
-
-* **BenevolentAI** - First major clinical success: Baricitinib for COVID-19
-  * [Website](https://www.benevolent.com/)
-
-* **Insilico Medicine** - First AI-designed drug with positive Phase IIa results
-  * [Website](https://insilico.com/)
-
-* **Recursion Pharmaceuticals** - Phenomics-first platform with multiple clinical programs
-  * [Website](https://www.recursion.com/)
-
-* **HealX** - AI platform for rare disease drug repurposing
-  * [Website](https://healx.io/)
-
-### Non-Profits
-
-* **Every Cure** - ARPA-H MATRIX project ($48M) for systematic drug repurposing
-  * [News](https://arpa-h.gov/news-and-events/arpa-h-awards-ai-driven-project-repurpose-approved-medications)
+* **Baricitinib for COVID-19 (BenevolentAI)** - First major AI-driven drug repurposing clinical success
+  * Originally approved for rheumatoid arthritis, repurposed for COVID-19 using knowledge graph and ML
+  * Identified in 48 hours, received FDA Emergency Use Authorization
+  * Clinical trials (ACTT-2, CoV-BARRIER) confirmed significant mortality reduction
+  * [Paper (Frontiers in Pharmacology)](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2021.709856/full) | [Paper (The Lancet)](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30304-4/fulltext)
+  * Organizations: BenevolentAI, Eli Lilly
 
 ---
 
@@ -413,17 +188,16 @@ Essential review papers for understanding the drug repurposing field.
   * Comprehensive review of AI frameworks and multimodal datasets for repurposing
   * [Paper (Advanced Science, Wiley, 2025)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202411325)
 
-* **Towards a More Inductive World for Drug Repurposing** (2025)
-  * Focus on drug-target interaction prediction challenges
-  * [Paper (Nature Machine Intelligence, 2025)](https://www.nature.com/articles/s42256-025-00987-y)
+* **Knowledge Graphs for drug repurposing: a review of databases and methods** (2024)
+  * Authors: Pablo Perdomo-Quinteiro, Alberto Belmonte-Hernández
+  * In-depth review of knowledge graph databases and computational methods in drug repurposing
+  * [Paper (Briefings in Bioinformatics, 2024)](https://academic.oup.com/bib/article/25/6/bbae461/7774899)
 
-* **Artificial Intelligence in Drug Repurposing for Rare Diseases: A Mini-Review** (2024)
-  * Focused review on rare disease applications
-  * [Paper (Frontiers in Medicine, 2024)](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2024.1404338/full)
+* **The use of knowledge graphs for drug repurposing: From classical machine learning algorithms to graph neural networks** (2024)
+  * Authors: Siqi Wei, Christo Sasi, Jelle Piepenbrock, Martijn A. Huynen, Peter A.C. ’t Hoen
+  * Comprehensive overview bridging classical ML methods and modern GNNs in the context of drug repurposing with knowledge graphs
+  * [Paper (Computer Methods and Programs in Biomedicine, 2024)](https://www.sciencedirect.com/science/article/pii/S0010482525012247)
 
-* **Machine Learning and AI in Drug Repurposing—Challenges and Perspectives** (2024)
-  * Critical perspective on current challenges
-  * [Paper (Drug Repurposing Central, 2024)](https://drugrepocentral.scienceopen.com/hosted-document?doi=10.58647/DRUGREPO.24.1.0004)
 
 * **Pioneering Computational Pharmacophenomics** (2024)
   * Authors: David C Fajgenbaum, Sally Nijim, Grant Mitchell, Matej Macak, Chris Bizon, Alexander Tropsha, David Koslicki
@@ -435,7 +209,20 @@ Essential review papers for understanding the drug repurposing field.
 ## Contributing
 
 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first. We particularly welcome additions of:
-- New clinical successes and validations
+- Novel AI/ML methods specifically for drug repurposing
+- New repurposing-specific datasets and tools
+- Updates to existing entries
+
+## License
+
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
+
+To the extent possible under law, the contributors have waived all copyright and related rights to this work.
+---
+
+## Contributing
+
+Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first. We particularly welcome additions of:
 - Novel AI/ML methods specifically for drug repurposing
 - New repurposing-specific datasets and tools
 - Updates to existing entries
