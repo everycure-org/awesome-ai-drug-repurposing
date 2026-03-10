@@ -83,6 +83,11 @@ Collection of awesome drug repurposing publications leveraging ML and AI
    * [Code](https://github.com/faren-f/NetMedGPT)
    * [Data](https://cloud.uni-hamburg.de/s/r74Ro8rmQ2sHwsL)
 
+* **K-Paths: Reasoning over Graph Paths for Drug Repurposing and Drug Interaction Prediction**
+  * Authors: Tassallah Abdullahi, Ioanna Gemou†, Nihal V. Nayak, Ghulam Murtaza, Stephen H. Bach, Carsten Eickhoff, Ritambhara Singh
+  * [Paper](https://arxiv.org/pdf/2502.13344)
+  * [Code](https://github.com/rsinghlab/K-Paths)
+
 ## Datasets
 
 ### Knowledge Graphs
