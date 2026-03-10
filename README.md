@@ -2,10 +2,9 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # awesome-ai-repurposing
-Collection of awesome drug repurposing publication leveraging ML and AI
+Collection of awesome drug repurposing publications leveraging ML and AI
 
 > Drug repurposing is the process of identifying new therapeutic uses for existing drugs (or drug candidates) that were originally developed for a different condition. 
-
 
 ## Table of Contents
 1. Knowledge Graph based Methods
@@ -15,10 +14,10 @@ Collection of awesome drug repurposing publication leveraging ML and AI
    1. GNN-based Methods
 
    1. Random walk based ML Methods
-   
-3. Large Language Models
+
+3. Large Language Models & Transformer Methods
 4. Datasets
-  
+
    1. Knowledge Graphs
 
 6. Other
@@ -47,7 +46,19 @@ Collection of awesome drug repurposing publication leveraging ML and AI
 * **A Case-Based Explainable Graph Neural Network Framework for Mechanistic Drug Repositioning**
   * [Paper](https://www.biorxiv.org/content/10.1101/2025.04.28.651120v1)
   * [Code](https://github.com/SuLab/DBR-X)
-  
+
+* **Few shot learning for phenotype-driven diagnosis of patients with rare genetic diseases**
+  * Authors: Emily Alsentzer, Michelle M Li, Shilpa N Kobren, Ayush Noori, Undiagnosed Diseases Network, Isaac S Kohane, Marinka Zitnik
+  * [Paper](https://pubmed.ncbi.nlm.nih.gov/40542121/)
+  * [Code](https://github.com/mims-harvard/SHEPHERD)
+  * [Data](https://zitniklab.hms.harvard.edu/projects/SHEPHERD/)
+
+* **Enhancing link prediction in biomedical knowledge graphs with BioPathNet**
+  * Authors: Emy Yue Hu, Svitlana Oleshko, Samuele Firmani, Hui Cheng, Zhaocheng Zhu, Maria Ulmer, Matthias Arnold, Maria Colomé-Tatché, Jian Tang, Sophie Xhonneux & Annalisa Marsico
+  * [Paper](https://www.nature.com/articles/s41551-025-01598-z)
+  * [Code](https://github.com/emyyue/BioPathNet)
+  * [Code to get Data](https://github.com/emyyue/BioPathNet/blob/main/data/download.sh)
+
 ### Random-walk based ML Methods 
 
 * **KGML-xDTD: a knowledge graph–based machine learning framework for drug treatment prediction and mechanism description**
@@ -60,11 +71,22 @@ Collection of awesome drug repurposing publication leveraging ML and AI
   * [Paper](https://www.nature.com/articles/s41467-023-39301-y)
   * [Code](https://github.com/eugenebang/DREAMwalk)
 
-## Large Language Model Methods
+## Large Language Models & Transformer Methods
 
 * **AI-Assisted Drug Re-Purposing for Human Liver Fibrosis**
    * Authors: Yuan Guan, Lu Cui, Jakkapong Inchai, Zhuoqing Fang, Jacky Law, Alberto Alonzo Garcia Brito, Annalisa Pawlosky, Juraj Gottweis, Alexander Daryin, Artiom Myaskovsky, Lakshmi Ramakrishnan, Anil Palepu, Kavita Kulkarni, Wei-Hung Weng, Zhuanfen Cheng, Vivek Natarajan, Alan Karthikesalingam, Keran Rong, Yunhan Xu, Tao Tu, Gary Peltz
    * [Paper](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202508751)
+
+* **NetMedGPT - A network medicine foundation model for extensive disease mechanism mining and drug repurposing**
+   * Authors: Farzaneh Firoozbakht, Simon Süwer, Maria Louise Elkjaer, Diane E. Handy, Andreas Maier, Jane Li, Lee Lancashire, Joseph Loscalzo, Jan Baumbach 
+   * [Paper](https://www.biorxiv.org/content/10.64898/2026.01.04.697552v1)
+   * [Code](https://github.com/faren-f/NetMedGPT)
+   * [Data](https://cloud.uni-hamburg.de/s/r74Ro8rmQ2sHwsL)
+
+* **K-Paths: Reasoning over Graph Paths for Drug Repurposing and Drug Interaction Prediction**
+  * Authors: Tassallah Abdullahi, Ioanna Gemou†, Nihal V. Nayak, Ghulam Murtaza, Stephen H. Bach, Carsten Eickhoff, Ritambhara Singh
+  * [Paper](https://arxiv.org/pdf/2502.13344)
+  * [Code](https://github.com/rsinghlab/K-Paths)
 
 ## Datasets
 
@@ -84,7 +106,18 @@ Collection of awesome drug repurposing publication leveraging ML and AI
   * Authors: Daniel Scott Himmelstein, Antoine Lizee, Christine Hessler, Leo Brueggeman, Sabrina L Chen, Dexter Hadley, Ari Green, Pouya Khankhanian, Sergio E Baranzini
   * [Paper](https://elifesciences.org/articles/26726)
   * [Code](https://github.com/hetio/hetionet)
-  
+
+* **Design and application of a knowledge network for automatic prioritization of drug mechanisms**
+  * Authors: Michael Mayers, Roger Tu, Dylan Steinecke, Tong Shu Li, Nuria Queralt-Rosinach, Andrew I Su
+  * [Paper](https://pubmed.ncbi.nlm.nih.gov/35561182/)
+  * [Code](https://github.com/SuLab/MechRepoNet)
+  * [Data](https://doi.org/10.5281/zenodo.6456335)
+
+## Other
+
+* **Pioneering a new field of computational pharmacophenomics to unlock the life-saving potential of existing medicines**
+  * Authors: David C Fajgenbaum, Sally Nijim, Grant Mitchell, Matej Macak, Chris Bizon, Alexander Tropsha, David Koslicki
+  * [Paper](https://pubmed.ncbi.nlm.nih.gov/39909662/)
 ## Other
 
 * **Pioneering a new field of computational pharmacophenomics to unlock the life-saving potential of existing medicines**
