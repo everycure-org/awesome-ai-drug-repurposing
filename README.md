@@ -215,21 +215,6 @@ Essential review papers for understanding the drug repurposing field.
   * Authors: David C Fajgenbaum, Sally Nijim, Grant Mitchell, Matej Macak, Chris Bizon, Alexander Tropsha, David Koslicki
   * Vision paper for unlocking life-saving potential of existing medicines
   * [Paper (PubMed)](https://pubmed.ncbi.nlm.nih.gov/39909662/)
-
----
-
-## Contributing
-
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first. We particularly welcome additions of:
-- Novel AI/ML methods specifically for drug repurposing
-- New repurposing-specific datasets and tools
-- Updates to existing entries
-
-## License
-
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
-
-To the extent possible under law, the contributors have waived all copyright and related rights to this work.
 ---
 
 ## Contributing
