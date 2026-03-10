@@ -61,6 +61,12 @@ Methods leveraging knowledge graphs to discover drug-disease relationships.
   * [Paper (Nature Communications, 2023)](https://www.nature.com/articles/s41467-023-39301-y) | [Code](https://github.com/eugenebang/DREAMwalk)
   * Organizations: Seoul National University
 
+* **Integrating biomedical research and electronic health records to create knowledge-based biologically meaningful machine-readable embeddings**
+  * Authors: Charlotte A. Nelson, Atul J. Butte & Sergio E. Baranzini
+  * [Paper (Nature Communications, 2019)](https://www.nature.com/articles/s41467-019-11069-0)
+  * [Code](https://github.com/BaranziniLab/PSEV)
+
+
 ### Rule-Based & Logic Methods
 
 * **Hetionet: Systematic integration of biomedical knowledge**
@@ -95,6 +101,10 @@ Transformer-based approaches specifically applied to drug repurposing.
   * [Paper](https://arxiv.org/pdf/2502.13344)
   * [Code](https://github.com/rsinghlab/K-Paths)
 
+* **DrugReAlign: a multisource prompt framework for drug repurposing based on large language models**
+  * Authors: Jinhang Wei, Linlin Zhuo, Xiangzheng Fu, XiangXiang Zeng, Li Wang, Quan Zou, Dongsheng Cao
+  * [Paper (BMC Biology, 2024)](https://link.springer.com/article/10.1186/s12915-024-02028-3)
+  * [Code](https://github.com/jinhang23/DrugReAlign)
 ---
 
 ## Data Resources & Knowledge Graphs
@@ -134,6 +144,12 @@ Foundational knowledge graphs for drug repurposing research.
   * [Paper (JCIM, 2020)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00683) | [News (RENCI)](https://renci.org/blog/new-concept-poised-to-accelerate-drug-discovery-through-data-mining/)
   * Organizations: RENCI, UNC Chapel Hill, Institute for Systems Biology
 
+* **The scalable precision medicine open knowledge engine (SPOKE): a massive knowledge graph of biomedical information**
+  * Authors: John H. Morris, Karthik Soman, Rabia E. Akbas, Xiaoyuan Zhou, Brett Smith, Elaine C. Meng, Conrad C. Huang, Gabriel Cerono, Gundolf Schenk, Angela Rizk-Jackson, Adil Harroud, Lauren Sanders, Sylvain V. Costes, Krish Bharat, Arjun Chakraborty, Alexander R. Pico, Taline Mardirossian, Michael Keiser, Alice Tang, Josef Hardi, Yongmei Shi, Mark Musen, Sharat Israni, Sui Huang, Peter W. Rose, Charlotte A. Nelson, Sergio E. Baranzini
+  * Open Access
+  * [Paper (Bioinformatics, 2023)](https://academic.oup.com/bioinformatics/article/39/2/btad080/7033465)
+
+
 ---
 
 ## Databases & Compound Libraries
@@ -153,10 +169,6 @@ Curated databases and compound collections for repurposing research.
   * Machine-readable pharmacology data
   * [Platform](https://go.drugbank.com/) | [ML Resources](https://www.drugbank.com/ai)
   * Organizations: University of Alberta
-
-* **DrugRepoBank: Comprehensive Drug Repositioning Database** (2024)
-  * Discovery platform accelerating drug repositioning
-  * [Paper (Database, Oxford Academic, 2024)](https://academic.oup.com/database/article/doi/10.1093/database/baae051/7712639)
 
 * **MeDIC: Medicines, Diseases, Indications, and Contraindications Database**
   * Curated collection of tabulated data sources for drug repurposing
