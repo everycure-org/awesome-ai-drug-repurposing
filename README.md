@@ -152,6 +152,12 @@ Foundational knowledge graphs for drug repurposing research.
   * [Platform](https://spoke.ucsf.edu/)
   * Organizations: UCSF, Lawrence Berkeley National Laboratory, Stanford University
 
+* **Open Targets Platform: Genetics-driven target prioritization and drug repurposing**
+  * Authors: Annalisa Buniello, Daniel Suveges, Carlos Cruz-Castillo, Manuel Bernal Llinares, Helena Cornu, et al.
+  * [Paper (Nucleic Acids Research, 2025)](https://academic.oup.com/nar/article/53/D1/D1467/7917960)
+  * [Platform](https://platform.opentargets.org/)
+  * [Data](https://platform-docs.opentargets.org/data-access/datasets)
+  * Organizations: Open Targets Consortium (EMBL-EBI, Wellcome Sanger Institute, and others)
 
 ---
 
