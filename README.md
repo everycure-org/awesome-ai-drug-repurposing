@@ -197,7 +197,14 @@ Real-world validation of AI-driven drug repurposing with clinical impact.
 
 * **Baricitinib for COVID-19 (BenevolentAI)** - First major AI-driven drug repurposing clinical success
   * [Paper (Frontiers in Pharmacology)](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2021.709856/full) | [Paper (The Lancet)](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30304-4/fulltext)
-  * Organizations: BenevolentAI, Eli Lilly
+
+* **Lenalidomide-Dexamethasone as an Effective and Well-Tolerated Treatment Option for Refractory Rosai-Dorfman-Destombes Disease: A Clinical and Pharmacophenomic Study** - A clinical study for Rosai-Dorfman-Destombes diseases supported by computational drug repurposing study
+  * Authors: Emily Leung, Nicholas R. Fragola, Elliott W. Sharp, Rebecca A. Harrison, Erica Peterson, Julia Varghese, Shannon Jackson, Xiaotian (Julie) You, Elysha VanderVeer, Mark Trinder, Ashley Sutherland, Jan Dutz, Piotr Kaniewski, Kenneth L. McClain, Oussama Abla, David C. Fajgenbaum, Luke Y. C. Chen
+  * [Paper (American Journal of Hematology)](https://onlinelibrary.wiley.com/doi/full/10.1002/ajh.70309)
+
+* **Identifying repurposing opportunities using computational pharmacophenomics in major depressive disorder: a meta-analysis and systematic review of glabellar injection of Botulinum Toxin A** - A computational repurposing study identifying Botulinum Toxin A as a repurposing opportunity for major depressive disorder 
+  * Authors: Nicholas R. Fragola,  Lee Lancashire,  Jennifer K. Visser-Rogers,  Elliott W. Sharp,  Charlotte Blewitt,  Matthew M. Goddeeris,  David C. Fajgenbaum
+  * [Paper (Psychiatry Research Communications)](https://www.sciencedirect.com/science/article/pii/S2772598726000164)
 
 ---
 
