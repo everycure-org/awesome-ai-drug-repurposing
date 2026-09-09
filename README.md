@@ -111,6 +111,12 @@ Transformer-based approaches specifically applied to drug repurposing.
 
 Foundational knowledge graphs for drug repurposing research.
 
+* **Every Cure Knowledge Graph: A Unified Biomedical Knowledge Graph for Drug Repurposing**
+  * Authors: Piotr Kaniewski, E. Kathleen Carter, Dan Rhodes, En May Lim, Jane Li, Jacques Vergine, Nico Matentzoglu, Kevin Schaper, Jason Reilly, Shilpa Sundar, Laurens Vijnck, Elliot Sharp, Nelson Alfonso, Amy Ford, Alexei Stepanenko, Charlie Hempstead, Pascal Brokmeier, Christopher Bizon, Alexander Tropsha, Melissa A. Haendel, David C. Fajgenbaum, Lee Lancashire
+  * [Paper (bioRxiv, 2026)](https://www.biorxiv.org/content/10.64898/2026.08.26.747253v1)
+  * [EC-KG Code](https://github.com/everycure-org/ec-kg)
+  * [MATRIX Code](https://github.com/everycure-org/matrix)
+
 * **PrimeKG: Precision Medicine Knowledge Graph**
   * Authors: Payal Chandak, Kexin Huang, Marinka Zitnik
   * [Paper (Nature Scientific Data, 2023)](https://www.nature.com/articles/s41597-023-01960-3)
