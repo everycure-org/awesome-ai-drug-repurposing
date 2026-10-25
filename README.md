@@ -66,6 +66,11 @@ Methods leveraging knowledge graphs to discover drug-disease relationships.
   * [Code](https://github.com/BaranziniLab/PSEV)
   * Organizations: UCSF
 
+* **OREVID: Open, Evidence-Based Drug Repurposing with a Benchmark Against TxGNN**
+  * Authors: Joaquim Quadrada Jané
+  * [Paper (Preprints.org, 2026)](https://doi.org/10.20944/preprints202610.1918.v2) | [Code](https://github.com/orevid-org/orevid) | [Benchmark](https://huggingface.co/datasets/orevid/orevid-bench) | [Website](https://orevid.org)
+  * Organizations: Independent researcher
+
 
 ### Rule-Based & Logic Methods
 
